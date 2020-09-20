@@ -10,69 +10,80 @@
       <header>
           <img src="images/AT_logo_white.png" id="logo">
           <ul>
-              <li>WORK</li>
-              <li>ABOUT</li>
-              <li>CONTACT</li>
+              <li class="navSelected">Work</li>
+              <li>About</li>
+              <li>Contact</li>
           </ul>
       </header>
       
       <!-- HERO SECTION -->
       <section class="hero">
           <div class="content">
-              <h1>Hi, friend! I'm Adrian Tagama.</h1>
-              <p>I'm a freelance UX/UI Designer that takes an 
-                  empathetic approach toward making things work
-                  for people like <b>you</b> and I.
-              </p>
+              <h1 id="intro">Hi, friend! I'm Adrian Tagama.</h1>
+              <h2>I'm a freelance UX/UI Designer that takes an 
+                  empathetic approach<br> toward making things work
+                  for people like you and I.
+              </h2>
               <button>DOWNLOAD RESUME</button>
+              <img src="../UX_UI_HW_19/images/down-arrow.png" id="down-arrow">
           </div>
       </section>
       
       <!-- PROJECTS -->
       <section class="projects">
-        <h1 class="heading">WORK</h1>
-        <div class="projects--grid">
-            <!-- WeTravel -->
-            <div id="img-wt">
-                <img src="images/WeTravel_Mockups.png">
+          <div class="heading--container">
+              <h1 class="heading" id="work">WORK</h1>
+          </div>
+          <div class="projects--grid">
+              <!-- WeTravel -->
+              <div class="project--grid" id="wt">
+                <div id="img-wt">
+                    <img src="images/WeTravel_Mockups.png">
+                  </div>
+                  <div id="content-wt">
+                      <h1>WeTravel</h1>
+                      <div class="separator"></div>
+                      <p>Making travel planning easier with a community based approach</p>
+                      <p class="date">May 2020</p>
+                      <button>VIEW CASE STUDY</button>
+                  </div>
+              </div>
+              <!-- Oregon DMV -->
+              <div class="project--grid" id="dmv">
+                <div id="img-dmv">
+                    <img src="images/oregon_desktop.png">
+                </div>
+                <div id="content-dmv">
+                    <h1>Oregon DMV</h1>
+                    <div class="separator"></div>
+                    <p>A cleaner, intuitive experience to get you on the road</p>
+                    <p class="date">July 2020</p>
+                    <button>VIEW CASE STUDY</button>
+                </div>
+              </div>
+              <!-- Silicon Beach Social -->
+              <div class="project--grid" id="sbs">
+                <div id="img-sbs">
+                    <img src="images/sbs-events_1.png">
+                </div>
+                <div id="content-sbs">
+                    <h1>Silicon Beach Social</h1>
+                    <div class="separator"></div>
+                    <p>Helping a non-profit gain more members to help build their community</p>
+                    <p class="date">May 2020</p>
+                    <button>VIEW CASE STUDY</button>
+                </div>
+              </div>
             </div>
-            <div id="content-wt">
-                <h2>WeTravel</h2>
-                <div class="separator"></div>
-                <p>Making travel planning easier with a community based approach</p>
-                <p id="date">May 2020</p>
-                <button>VIEW CASE STUDY</button>
-            </div>
-            <!-- Oregon DMV -->
-            <div id="img-dmv">
-                <img src="images/oregon_desktop.png">
-            </div>
-            <div id="content-dmv">
-                <h2>Oregon DMV</h2>
-                <div class="separator"></div>
-                <p>A cleaner, intuitive experience to get you on the road</p>
-                <p id="date">July 2020</p>
-                <button>VIEW CASE STUDY</button>
-            </div>
-            <!-- Silicon Beach Social -->
-            <div id="img-sbs">
-                <img src="images/sbs-events_1.png">
-            </div>
-            <div id="content-sbs">
-                <h2>Silicon Beach Social</h2>
-                <div class="separator"></div>
-                <p>Helping a non-profit gain more members to help build their community</p>
-                <p id="date">May 2020</p>
-                <button>VIEW CASE STUDY</button>
-            </div>
-        </div>
-    </section>
-    <!-- FOOTER -->
-    <footer>
-        <ul>
-            <li>WORK</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
-        </ul>
-    </footer>
-  </body>
+        </section>
+        <!-- FOOTER -->
+        <footer>
+            <ul>
+                <li>Work</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li><img src="../UX_UI_HW_19/images/copyright.png" id="copyright"> 2020 Adrian Tagama</li>
+            </ul>
+        </footer>
+    </body>
+</html>
