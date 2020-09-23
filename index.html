@@ -7,14 +7,21 @@
 
   <body>
       <!-- HEADER -->
-      <header>
-          <img src="images/AT_logo_white.png" id="logo">
-          <ul>
-              <li class="navSelected">Work</li>
-              <li>About</li>
-              <li>Contact</li>
-          </ul>
-      </header>
+        <nav class="navbar">
+            <div><img src="images/AT_logo_white.png" id="logo"></div>
+            <a href="#" class="menu-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
       
       <!-- HERO SECTION -->
       <section class="hero">
@@ -85,5 +92,11 @@
                 <li><img src="../UX_UI_HW_19/images/copyright.png" id="copyright"> 2020 Adrian Tagama</li>
             </ul>
         </footer>
+
+        <div class="preloader">
+            <img src="images/AT_logo_white.png">
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>
